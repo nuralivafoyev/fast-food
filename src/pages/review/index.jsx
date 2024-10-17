@@ -2,6 +2,7 @@ import React from 'react';
 import "./style.scss"
 import Customer from "../../images/customer.png"
 import Imgburger from "../../images/imageburger.png"
+import Ordernow from "../../images/order-now.png"
 
 export const Review = () => {
     return (
@@ -23,6 +24,7 @@ export const Review = () => {
 
                     <div className="review__right">
                         <img src={Imgburger} alt="img" />
+                        <img className='order__now' src={Ordernow} alt="img" />
                     </div>
                 </div>
             </div>

@@ -1,10 +1,11 @@
 .review {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+
     &__left {
         display: flex;
-        width: 700px;
+        width: 650px;
         padding-top: 180px;
         gap: 38px;
         flex-direction: column;
@@ -48,5 +49,21 @@
             }
         }
 
+    }
+    &__right {
+        position: relative;
+
+        img {
+            transition: all 0.3s ease-out;
+            &:hover {
+                transform: scale(1.03);
+            }
+        }
+        
+        .order__now {
+            position: absolute;
+            left: -110px;
+            bottom: -162px;
+        }
     }
 }
