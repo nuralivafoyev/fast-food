@@ -15,15 +15,17 @@ export const Hero = () => {
                     <strong className='hero__title2'>Collections</strong><br />
                     <p className='hero__text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Varius sed pharetra dictum neque massa congue</p>
-                    <button className='hero__btn'>See All</button>
-                    <button id='hero_menu' className='hero__btn hero__btn--white'>Menu</button>
+                    {/* buttons */}
+                    <a href="#hero_bottom"><button className='hero__btn'>See All</button></a>
+                    <a href="#menu"><button id='hero_menu' className='hero__btn hero__btn--white'>Menu</button></a>
+                    {/* buttons */}                  
                 </div>
                 <div className="hero__right">
                     <img width={"740px"} height={"700px"} src={Gamburger} alt="img" />                    
                 </div>
             </div>
 
-            <div className="hero__bottom">
+            <div id='hero_bottom' className="hero__bottom">
                 <div className="hero_card">
                     <img src={Chefs} alt="img" />
                     <small>Professional Chefs</small>

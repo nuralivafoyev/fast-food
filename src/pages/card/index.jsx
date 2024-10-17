@@ -1,9 +1,13 @@
 import React from 'react';
+import "./style.scss";
+
 
 export const Card = () => {
     return (
-        <div>
-            <h1>card</h1>
-        </div>
+        <>
+            <div className="container">
+                
+            </div>
+        </>
     );
 };

@@ -31,6 +31,11 @@
             margin-top: 62px;
             transition: all 0.2s ease;
 
+            a {
+                text-decoration: none;
+                color: #90e051;
+            }
+
             &:hover, &:focus{
                 background-color: #90e051;
                 color: #fff;
@@ -59,7 +64,7 @@
     display: flex;
     justify-content: center;
     gap: 104px;
-    padding-top: 70px;
+    padding-top: 90px;
     .hero_card {
         display: flex;
         flex-direction: column;

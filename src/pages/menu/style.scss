@@ -1,0 +1,109 @@
+.menu {
+    padding-top: 142px;
+    min-height: 70vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    // overflow: hidden;
+    .menu__left {
+        position: absolute;
+        left: -60px;
+        margin-top: 60px;
+        animation: scale 4s infinite;
+    }
+    .menu__right {
+        z-index: 99;
+        position: absolute;
+        right: 0;
+        padding-right: 25px;
+        // padding-bottom: 15px;
+        border-radius: 69px;
+        min-width: 620px;
+        max-height: 632px;
+        padding-top: 15px;
+        background-color: #90e051;
+        box-shadow: #00000066 0px 30px 70px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        // overflow: hidden;
+        // transition: all 0.3s ease-out;
+
+
+        .card {
+            width: 232px;
+            height: 253px;
+            border-radius: 23px;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            margin-top: 48px;
+            margin-left: 30px;
+            padding: 20px 22px;
+            gap: 14px;
+            position: relative;
+
+            .card__img {
+                position: absolute;
+                top: -30px;
+                left: 15%;
+            }
+            h1 {
+                font-size: 16px;
+                font-weight: 700;
+                margin-top: 60px;
+            }
+            p {
+                font-size: 14px;
+                font-weight: 500;
+                width: 176px;
+            }
+            small {
+                display: flex;
+                align-items: center;
+                font-size: 15px;
+            }
+            .prise {
+                font-size: 19px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                h4 {
+                    color: #90e051;
+                    font-size: 19px;
+                }
+                .add__product {
+                    width: 30px;
+                    height: 30px;
+                    background-color: #90e051;
+                    color: #ffffff;
+                    border-radius: 50%;
+                    border: none;
+                    font-size: 26px;
+                    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+                }
+            }
+        }
+        .menu__btn {
+            position: absolute;
+            bottom: 56px;
+            left: 27%;
+            font-size: 22.35px;
+            font-weight: 700;
+            color: #90e051;
+            background-color: #fff;
+            border: none;
+            border-radius: 17.5px;
+            padding: 17px 86px;
+            box-shadow: #079f078d 60px 60px 860px;
+            transition: all 0.3s ease-out;
+            &:hover {
+                transform: scale(1.06);
+                box-shadow: #079f07 20px 20px 360px;
+
+            }
+        }
+    }
+}
