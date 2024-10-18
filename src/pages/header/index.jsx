@@ -12,7 +12,7 @@ export const Header = () => {
                 <ul>
                     <li><a href='#'>Home</a></li>
                     <li><a href='#menu'>Menu</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#">Shop</a></li>
                 </ul>
                 <div className="icons">

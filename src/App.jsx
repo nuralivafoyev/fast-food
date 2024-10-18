@@ -1,4 +1,4 @@
-import {Card, Header, Hero, Menu, Review, Footer} from './pages/index'
+import {Card, Header, Hero, Menu, Review, Appbrg, About, Footer} from './pages/index'
 import './App.css'
 
 
@@ -10,6 +10,8 @@ function App() {
      <Menu/>
      <Card/>
      <Review />
+     <Appbrg />
+     <About />
      <Footer/>
     </>
   )
