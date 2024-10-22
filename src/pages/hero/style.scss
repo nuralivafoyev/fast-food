@@ -52,10 +52,6 @@
             transition: all 0.2s ease;
             animation: scale 1s infinite;
             animation-duration: 4s;
-            &:hover {
-                scale: 1.04;
-                animation: scale;
-            }
         }
     }
 }
